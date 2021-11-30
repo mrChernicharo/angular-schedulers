@@ -1,21 +1,10 @@
 :host {
   font-family: Arial, Helvetica, sans-serif;
-  --bar-color: dodgerblue;
 }
 
 header,
 main {
   text-align: center;
-}
-
-.progress-bar {
-  height: 40px;
-  border: 1px solid;
-  background: var(--bar-color);
-  font-size: clamp(0.7rem, 1vw, 1.5rem);
-  color: #fff;
-  display: flex;
-  align-items: center;
 }
 
 @media screen and (max-width: 767px) {
